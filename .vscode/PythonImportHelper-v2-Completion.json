@@ -1,0 +1,28 @@
+[
+    {
+        "label": "gTTS",
+        "importPath": "gtts",
+        "description": "gtts",
+        "isExtraImport": true,
+        "detail": "gtts",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "text = \"Execution Context Stack\"\ntts = gTTS(text=text, lang=\"en\")\n# 导出的文件名跟 text 保持一致，是个变量\ntts.save(f\"Store/{text}.mp3\")",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "tts",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "tts = gTTS(text=text, lang=\"en\")\n# 导出的文件名跟 text 保持一致，是个变量\ntts.save(f\"Store/{text}.mp3\")",
+        "detail": "utils",
+        "documentation": {}
+    }
+]
